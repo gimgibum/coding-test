@@ -4,5 +4,5 @@ function solution(x) {
     for(s of hashard){
         sum += Number(s);
     }
-    return x%sum===0 ? true : false;
+    return x%sum===0;
 }
